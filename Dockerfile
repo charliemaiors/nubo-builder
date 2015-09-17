@@ -5,7 +5,7 @@ FROM flaviomu/nubomedia-signaling-plane:v1
 MAINTAINER Nubomedia
 # TODO: Rename the builder environment variable to inform users about application you provide them
 # ENV BUILDER_VERSION 1.0
-#WORKDIR /opt/signaling-plain/modules
+WORKDIR /opt/signaling-plane/modules
 # TODO: Set labels used in OpenShift to describe the builder image
 LABEL io.k8s.description="Platform for building xyz" \
       io.k8s.display-name="builder x.y.z" \
